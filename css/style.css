@@ -5,6 +5,10 @@
 	}
 }
 
+body {
+    background-color: black;
+}
+
 #influence {
 	background-image:url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg);
 	background-position: center;
@@ -63,7 +67,7 @@
 
 #bar {
     background-color: rgb(0, 0, 0);
-    height: 5px;
+    height: 2px;
 }
 
 #avenement {
@@ -101,7 +105,7 @@
     text-align:left;
 }
 
-#esp{
+#avenement .esp{
   background-color: rgba(0, 0, 0, .4);
   padding: 12px 30px;
   text-align: center;
@@ -115,14 +119,14 @@
   text-transform: uppercase;
 }
 
-#esp:hover{
+#avenement .esp:hover{
     background-color: rgba(204, 122, 0, 0.8);
     color: #fad379;
     transition-duration: 0.5s;
     text-transform: uppercase;
 }
 
-#jemabo{
+#avenement .jemabo{
   background-color: rgba(204, 41, 0, 0.4);
   padding: 12px 30px;
   text-align: center;
@@ -137,9 +141,82 @@
   text-transform: uppercase;
 }
 
-#jemabo:hover{
+#avenement .jemabo:hover{
     background-color: rgba(204, 41, 0, 0.8);
     color: #fad379;
     transition-duration: 0.5s;
     text-transform: uppercase;
+}
+
+#maj .marginB {
+    padding: 2px;
+}
+
+#maj .marginB:hover {
+    border:2px solid #f7b10a;
+}
+
+#maj a {
+    text-decoration: none;
+}
+
+#maj h2{
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    color: #ebdec2;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+
+#maj h1{
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    text-align: center;
+    color: #f8b700;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#maj .tpart1 {
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/SE58SPP78TP01579050179053.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 375px;
+    border: 1px solid #ad7c09;
+    border-bottom: none;
+}
+
+#maj .tpart2 {
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/S9EEQMBOXCEL1561500950256.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 375px;
+    border: 1px solid #ad7c09;
+    border-bottom: none;
+}
+
+#maj .tpart3 {
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/30WZ1HGMZU5C1463691816866.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 375px;
+    border: 1px solid #ad7c09;
+    border-bottom: none;
+}
+
+#maj .tpart4 {
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/C96JQLGPQKLA1463691818913.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 375px;
+    border: 1px solid #ad7c09;
+    border-bottom: none;
+}
+
+#maj .bpart {
+    background-color: #211510;
+    padding: 20px 30px;
+    border: 1px solid #ad7c09;
 }
