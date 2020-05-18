@@ -2,11 +2,151 @@
 @media (min-width: 1200px) {
 	.container-big{
 		max-width: 1280px;
-	}
+    }
+    
+    .container-verybig{
+        max-width: 1560px;
+    }
 }
 
 body {
     background-color: black;
+}
+
+#s4 {
+    background-image: url(https://cdn.discordapp.com/attachments/709643068499820545/711824854021570641/combat.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1115px;
+}
+
+#s4.container-verybig{
+    width: 1560px;
+    padding: 130px 20px 0px;
+}
+
+#s4 h1 {
+    padding-top: 290px;
+    padding-bottom: 24px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 51.6px;
+    color: #fff;
+    font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#s4 .text {
+    color: #ebdec2;
+    font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 24px;
+    margin: 0
+}
+
+#s4 .big-link {
+    color: #ebdec2;
+    text-decoration: underline;
+    font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+
+#s4 .esp {
+    background-color: rgba(0, 0, 0, .4);
+    padding: 12px 30px;
+    text-align: center;
+    color: #f7b10a;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 36px;
+    cursor: pointer;
+    border: 1px solid #f7b10a;
+    text-transform: uppercase;
+}
+
+#s4 .esp:hover {
+    background-color: rgba(204, 122, 0, 0.8);
+    color: #fad379;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+}
+
+#s4 .jemabo {
+    background-color: rgba(204, 41, 0, 0.4);
+    padding: 12px 30px;
+    text-align: center;
+    color: #f7b10a;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 36px;
+    margin-right: 12px;
+    cursor: pointer;
+    border: 1px solid #ff3300;
+    text-transform: uppercase;
+}
+
+#s4 .jemabo:hover {
+    background-color: rgba(204, 41, 0, 0.8);
+    color: #fad379;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+}
+
+#s4 h4 {
+    padding: 10px;
+    margin-top: 160px;
+    color: #ebdec2;
+    font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#s4 a.simple-link {
+    padding: 10px;
+    margin-top: 160px;
+    color: #f8b700;
+}
+
+#s4 .grid {
+    padding: 10px;
+}
+
+#s4 .grid1 {
+    padding: 10px;
+}
+
+#s4 .Igrid {
+    background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/mv/MVKK5EJOGPU61470421579108.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 211px;
+    width: 375px;
+    outline: 1px solid #624708;
+}
+
+#s4 .Tgrid {
+    padding: 10px;
+    position: relative;
+}
+
+#s4 .grid p {
+    color: #cacaca;
+    margin: 0em;
+}
+
+#s4 .grid h5 {
+    color: #f8b700;
+    margin: 0em;
 }
 
 #influence {
@@ -148,9 +288,8 @@ body {
     text-transform: uppercase;
 }
 
-#maj .marginB {
-    padding: 10px;
-    margin: 10px;
+#maj .marginB{
+    width: 49.9%;
 }
 
 #maj .marginB:hover {
@@ -175,7 +314,7 @@ body {
     font-family: Open Sans,Arial,Helvetica,sans-serif;
     text-align: center;
     color: #f8b700;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     margin: 0;
 }
