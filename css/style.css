@@ -149,11 +149,12 @@ body {
 }
 
 #maj .marginB {
-    padding: 2px;
+    padding: 10px;
+    margin: 10px;
 }
 
 #maj .marginB:hover {
-    border:2px solid #f7b10a;
+    outline:2px solid #f7b10a;
 }
 
 #maj a {
